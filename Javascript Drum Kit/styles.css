@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+html{
+	font-size: 12px;
+	background:url(http://cdn.wallpapersafari.com/95/30/yYO1JG.jpg);
+	background-size: cover;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.keys{
+	display: flex;
+	flex: 1;
+	min-height:100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.key{
+	border: 3px solid black;
+	border-radius:5px;
+	margin:1rem;
+	font-size: 1.5rem;
+	padding:1rem .5rem;
+	width:100px;
+	text-align: center;
+	color:black;
+	transition:all .07s;
+}
+
+.playing {
+	transform:scale(1.1);
+	border-color:#9C2A00;
+	box-shadow: 0 0 10px #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 40px;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color:#9C2A00;
+}
