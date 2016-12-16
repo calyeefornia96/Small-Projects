@@ -2,6 +2,7 @@ const panels = $('.panel');
 
 console.log(panels);
 function toggleOpen(){
+	console.log($(this));
 	$(this).toggleClass('open');
 }
 
