@@ -15,7 +15,7 @@ $(document).ready(function(){
 		minHand[0].style.transform = `rotate(${minsDeg}deg)`;
 
 		const hour = time.getHours();
-		const hoursDeg = ((hour/60) *360) + 90;
+		const hoursDeg = ((hour/12) *360) + 90;
 		hourHand[0].style.transform = `rotate(${hoursDeg}deg)`;
 	}
 

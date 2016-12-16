@@ -1,7 +1,7 @@
 const inputs = $('.controls input');
 
-function handleUpdate(){
-
+function handleUpdate(e){
+	console.log(e);
 	const suffix = this.dataset.sizing || "";
 
 	$(":root").css("base", "red");
